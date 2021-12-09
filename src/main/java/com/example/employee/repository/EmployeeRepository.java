@@ -1,4 +1,4 @@
-package repository;
+package com.example.employee.repository;
 
 /*
  * project:  employee
@@ -7,7 +7,7 @@ package repository;
  */
 
 
-import model.Employee;
+import com.example.employee.model.Employee;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

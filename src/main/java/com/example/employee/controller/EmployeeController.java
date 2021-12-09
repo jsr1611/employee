@@ -1,4 +1,4 @@
-package controller;
+package com.example.employee.controller;
 /*
  * project:  employee
  * author:   Jumanazar Said
@@ -8,7 +8,7 @@ package controller;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
-import service.EmployeeService;
+import com.example.employee.service.EmployeeService;
 
 @RestController
 @RequestMapping("/api")

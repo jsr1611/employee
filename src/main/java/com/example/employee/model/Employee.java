@@ -1,4 +1,4 @@
-package model;
+package com.example.employee.model;
 
 /*
  * project:  employee

@@ -1,4 +1,4 @@
-package service;
+package com.example.employee.service;
 
 /*
  * project:  employee
@@ -6,10 +6,10 @@ package service;
  * created:  09/12/2021 2:53 PM
  */
 
-import model.Employee;
+import com.example.employee.model.Employee;
+import com.example.employee.repository.EmployeeRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import repository.EmployeeRepository;
 
 import java.util.List;
 
