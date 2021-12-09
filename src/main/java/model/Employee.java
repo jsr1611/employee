@@ -6,8 +6,11 @@ package model;
  * created:  09/12/2021 2:29 PM
  */
 
+import lombok.Data;
+
 import javax.persistence.*;
 
+@Data
 @Entity
 @Table(name = "employee")
 public class Employee {
